@@ -1,0 +1,4 @@
+include:
+  - component: gitlab.production-dev.ru/tribe/infrastructure/gitlab-ci-components/deploy/hosting-deploy@~latest
+    inputs:
+      project-name: 'Graffiti'

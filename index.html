@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://lifehacker.ru/wp-content/themes/lifehacker/static/img/favicon.png"
+    />
+    <meta
+      name="title"
+      content="Искусство на стенах. Дерзкий таймлайн с историей граффити от «Вкусно — и точка» и Лайфхакера"
+    />
+    <meta
+      name="description"
+      content="К запуску обновлённого Супер Бокса показываем, как развивалась культура граффити. Внутри — простая инструкция, как выиграть поездку в Сеул или другие классные призы от «Вкусно — и точка»."
+    />
+    <meta property="og:url" content="https://lifehacker.ru/special/history-of-graffiti/" />
+    <meta property="og:title" content="Искусство на стенах. Краткая история граффити" />
+    <meta
+      property="og:description"
+      content="Показываем и рассказываем, как менялась культура граффити и отношение к райтерам и их рисункам в обществе."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lifehacker.ru/special/history-of-graffiti/share.jpg" />
+    <meta property="vk:image" content="https://lifehacker.ru/special/history-of-graffiti/dist/share.jpg" />
+    <link rel="image_src" href="https://lifehacker.ru/special/history-of-graffiti/dist/share.jpg" />
+    <link rel="canonical" href="https://lifehacker.ru/special/history-of-graffiti/" />
+    <title>Искусство на стенах. Дерзкий таймлайн с историей граффити от «Вкусно — и точка» и Лайфхакера</title>
+    <link rel="preload" href="/fonts/SpriteGraffiti.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/TastyGothic-Book.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/TastyGothic-Demi.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/TastyGothic-Heavy.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+
+  <body>
+    <style>
+      @font-face {
+        font-family: 'Sprite Graffiti';
+        src: url('/fonts/SpriteGraffiti.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Tasty Gothic';
+        src: url('/fonts/TastyGothic-Book.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Tasty Gothic';
+        src: url('/fonts/TastyGothic-Demi.woff2') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Tasty Gothic';
+        src: url('/fonts/TastyGothic-Heavy.woff2') format('woff2');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
+    <div id="root"></div>
+    <div id="popups"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const handleWindowResize = () => {
+        document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`)
+      }
+      handleWindowResize()
+      window.addEventListener('resize', handleWindowResize)
+    </script>
+  </body>
+</html>
