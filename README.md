@@ -1,8 +1,35 @@
-## Скрипты
+<p align="center">
+    <img src="https://github.com/eldrssn/history-of-graffiti/blob/master/public/share.png" alt="Screen Shot">
+</p>
 
-- **build** - Собирает проект в dist/ без изменения ссылок на источники для выгрузки на препрод.
-- **build:pari** - Подготавливает проект к деплою в GIT PARI:
-  vite автоматически подставит ссылку до CDN для каждого подключаемого файла (картинки, шрифты, стили, жс), но для этого в скрипте "build:pari": "tsc && vite build --base=https://origin.pb06e2-resources.com/webStaticPB/sp/projectname" вместо projectname подставить название папки, в которую будет заливаться проект в гите пари
-- **generate** создаст папку шаблон для компонентов или страниц
-- **apigen** - Генерирует api по сваггеру и кладет все в папочку src/scripts/modules/api/generated. Сразу все обарачивает в axios с TS.
-- **format и lint** - Проверяют на соответсвие prettier и eslint правилам.
+# History of Graffiti 🎨  
+An interactive website dedicated to the evolution of graffiti worldwide and in Russia, created for a special event by a major brand. The site chronologically showcases the journey of graffiti from its origins to the present day. The project is built using React with CSS animations and sequences.
+
+## Key Features: 🧑🏽‍💻  
+- Diverse interactive animations.  
+- Each image can be opened in a separate window for a closer look.  
+- All information comes with explanations and links to sources.  
+- Fully responsive design for all types of devices.  
+
+## Technology Stack:  
+- **Builder:** Vite  
+- **Frontend:** React  
+- **Animations:** CSS  
+- **Styling:** Styled Components  
+
+## Live 📍
+
+[https://history-of-graffiti.vercel.app/](https://history-of-graffiti.vercel.app/) 
+
+## Installation 💾
+
+```bash
+git clone git@github.com:eldrssn/historical-dates.git
+npm i && npm run dev
+```
+
+## License 🔱
+
+Under license (MIT, Apache etc)
+
+MIT © [Maxim Kalimullin]()
