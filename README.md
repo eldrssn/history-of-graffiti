@@ -24,7 +24,7 @@ An interactive website dedicated to the evolution of graffiti worldwide and in R
 ## Installation 💾
 
 ```bash
-git clone git@github.com:eldrssn/historical-dates.git
+git clone git@github.com:eldrssn/history-of-graffiti.git
 npm i && npm run dev
 ```
 
