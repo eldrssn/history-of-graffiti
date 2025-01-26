@@ -10,6 +10,7 @@ An interactive website dedicated to the evolution of graffiti worldwide and in R
 - Each image can be opened in a separate window for a closer look.  
 - All information comes with explanations and links to sources.  
 - Fully responsive design for all types of devices.  
+- Fluid layout ensuring smooth scaling on any screen size. 
 
 ## Technology Stack:  
 - **Builder:** Vite  
